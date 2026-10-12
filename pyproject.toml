@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "telegram-emoji-photo-bot"
+version = "1.1.0"
+description = "Async Telegram emoji, sticker and AI grid studio bot with Stars and TR/EN/DE"
+requires-python = ">=3.11"
+dependencies = [
+  "aiogram>=3.13,<4", "pydantic-settings>=2,<3", "sqlalchemy[asyncio]>=2.0.25,<3",
+  "aiosqlite>=0.19,<1", "asyncpg>=0.29,<1", "pillow>=10.2,<13",
+  "opencv-python-headless>=4.9,<5", "python-dotenv>=1,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pytest-asyncio>=0.24,<2", "ruff>=0.9,<1"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["telegram_bot"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = [".uv-cache", ".uv-cache-clean"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]

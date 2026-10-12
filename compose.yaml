@@ -1,0 +1,15 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 30s
+    environment:
+      DATA_DIR: /app/data/jobs
+    volumes:
+      - bot_data:/app/data
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  bot_data:

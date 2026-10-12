@@ -1,0 +1,278 @@
+{
+  "pyproject.toml": {
+    "mtime": 1791727281.385831,
+    "seen": 1791728638.48532,
+    "ast_hash": "73eb34b08fb9e2993e2276672b4480c3",
+    "semantic_hash": "73eb34b08fb9e2993e2276672b4480c3"
+  },
+  "telegram_bot/__init__.py": {
+    "mtime": 1791719314.4569328,
+    "seen": 1791722768.3369615,
+    "ast_hash": "f34870a9d708958b66905b789dd4abf6",
+    "semantic_hash": "f34870a9d708958b66905b789dd4abf6"
+  },
+  "telegram_bot/config.py": {
+    "mtime": 1791726880.780297,
+    "seen": 1791728638.48532,
+    "ast_hash": "9a9f8f81ca7f275d50103ac432bba5a0",
+    "semantic_hash": "9a9f8f81ca7f275d50103ac432bba5a0"
+  },
+  "telegram_bot/database/__init__.py": {
+    "mtime": 1791719319.1391087,
+    "seen": 1791722768.3369615,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "telegram_bot/database/base.py": {
+    "mtime": 1791726875.4703908,
+    "seen": 1791728638.48532,
+    "ast_hash": "1767bf807cd19e131e33b5d5724a3b7f",
+    "semantic_hash": "1767bf807cd19e131e33b5d5724a3b7f"
+  },
+  "telegram_bot/database/models.py": {
+    "mtime": 1791726873.4441445,
+    "seen": 1791728638.48532,
+    "ast_hash": "1273860e0509ae06b693039c5f0e555c",
+    "semantic_hash": "1273860e0509ae06b693039c5f0e555c"
+  },
+  "telegram_bot/database/repository.py": {
+    "mtime": 1791726878.4169936,
+    "seen": 1791728638.48532,
+    "ast_hash": "ac1b24ff606c95ddf441a6ee24ed73e4",
+    "semantic_hash": "ac1b24ff606c95ddf441a6ee24ed73e4"
+  },
+  "telegram_bot/handlers/__init__.py": {
+    "mtime": 1791719641.2482505,
+    "seen": 1791722768.3369615,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "telegram_bot/handlers/emoji_handlers.py": {
+    "mtime": 1791719664.6671524,
+    "seen": 1791722768.3369615,
+    "ast_hash": "612b1c9298f79bfaa0677bd1f31ca3b7",
+    "semantic_hash": "612b1c9298f79bfaa0677bd1f31ca3b7"
+  },
+  "telegram_bot/handlers/fallback.py": {
+    "mtime": 1791719647.808926,
+    "seen": 1791722768.3369615,
+    "ast_hash": "9170735791a929293dc1a957153d1516",
+    "semantic_hash": "9170735791a929293dc1a957153d1516"
+  },
+  "telegram_bot/handlers/payment_handlers.py": {
+    "mtime": 1791720691.97325,
+    "seen": 1791722768.3369615,
+    "ast_hash": "4ea50632ba03c48e0661c7a193877ab4",
+    "semantic_hash": "4ea50632ba03c48e0661c7a193877ab4"
+  },
+  "telegram_bot/handlers/photo_handlers.py": {
+    "mtime": 1791719664.6681714,
+    "seen": 1791722768.3369615,
+    "ast_hash": "fe4aac1ab64d44fa23802d28bc869876",
+    "semantic_hash": "fe4aac1ab64d44fa23802d28bc869876"
+  },
+  "telegram_bot/handlers/start.py": {
+    "mtime": 1791726961.5488951,
+    "seen": 1791728638.48532,
+    "ast_hash": "032ea5b0a268dcad981477ffdf77a041",
+    "semantic_hash": "032ea5b0a268dcad981477ffdf77a041"
+  },
+  "telegram_bot/handlers/states.py": {
+    "mtime": 1791726950.2163417,
+    "seen": 1791728638.48532,
+    "ast_hash": "6fbb85fdce187ed1f1c8e736faddd12d",
+    "semantic_hash": "6fbb85fdce187ed1f1c8e736faddd12d"
+  },
+  "telegram_bot/handlers/upload.py": {
+    "mtime": 1791726958.8244407,
+    "seen": 1791728638.48532,
+    "ast_hash": "7bd1c6fab8306858e3973d0f86973914",
+    "semantic_hash": "7bd1c6fab8306858e3973d0f86973914"
+  },
+  "telegram_bot/i18n.py": {
+    "mtime": 1791719664.6721716,
+    "seen": 1791722768.3369615,
+    "ast_hash": "9ea751afa1fe661dcc906d94863274de",
+    "semantic_hash": "9ea751afa1fe661dcc906d94863274de"
+  },
+  "telegram_bot/keyboards/__init__.py": {
+    "mtime": 1791719554.0052793,
+    "seen": 1791722768.3369615,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "telegram_bot/keyboards/inline.py": {
+    "mtime": 1791727170.6469862,
+    "seen": 1791728638.48532,
+    "ast_hash": "e433fab062768bf29e22c7bc9202ddd3",
+    "semantic_hash": "e433fab062768bf29e22c7bc9202ddd3"
+  },
+  "telegram_bot/locales/de.json": {
+    "mtime": 1791727055.7262197,
+    "seen": 1791728638.48532,
+    "ast_hash": "437f17edc3484685d98d746eabdeae4c",
+    "semantic_hash": "437f17edc3484685d98d746eabdeae4c"
+  },
+  "telegram_bot/locales/en.json": {
+    "mtime": 1791727049.9567938,
+    "seen": 1791728638.48532,
+    "ast_hash": "2399c04fca4a796bef2808f683d285fd",
+    "semantic_hash": "2399c04fca4a796bef2808f683d285fd"
+  },
+  "telegram_bot/locales/tr.json": {
+    "mtime": 1791727052.4054277,
+    "seen": 1791728638.48532,
+    "ast_hash": "3c91f278dfbe83e35f9dd24b7a12f03e",
+    "semantic_hash": "3c91f278dfbe83e35f9dd24b7a12f03e"
+  },
+  "telegram_bot/main.py": {
+    "mtime": 1791726966.742036,
+    "seen": 1791728638.48532,
+    "ast_hash": "06a2682d21dce0c30f27f4b66c1a2698",
+    "semantic_hash": "06a2682d21dce0c30f27f4b66c1a2698"
+  },
+  "telegram_bot/middlewares/__init__.py": {
+    "mtime": 1791719557.9839716,
+    "seen": 1791722768.3369615,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "telegram_bot/middlewares/i18n_middleware.py": {
+    "mtime": 1791719664.675319,
+    "seen": 1791722768.3369615,
+    "ast_hash": "dcdc4891da1824a3103fd9db1f8dad07",
+    "semantic_hash": "dcdc4891da1824a3103fd9db1f8dad07"
+  },
+  "telegram_bot/middlewares/quota_middleware.py": {
+    "mtime": 1791720901.5162742,
+    "seen": 1791722768.3369615,
+    "ast_hash": "b3e0851dce799659ea56c8df87c6ff28",
+    "semantic_hash": "b3e0851dce799659ea56c8df87c6ff28"
+  },
+  "telegram_bot/polling.py": {
+    "mtime": 1791719983.5399218,
+    "seen": 1791722768.3369615,
+    "ast_hash": "1fbd0f509e098f09409287ae4a9616d7",
+    "semantic_hash": "1fbd0f509e098f09409287ae4a9616d7"
+  },
+  "telegram_bot/runtime_lock.py": {
+    "mtime": 1791720900.2090604,
+    "seen": 1791722768.3369615,
+    "ast_hash": "793443980c40c6f39ed321b2b640e29d",
+    "semantic_hash": "793443980c40c6f39ed321b2b640e29d"
+  },
+  "telegram_bot/services/__init__.py": {
+    "mtime": 1791719448.1659393,
+    "seen": 1791722768.3369615,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "telegram_bot/services/face_censor.py": {
+    "mtime": 1791720022.1049123,
+    "seen": 1791722768.3369615,
+    "ast_hash": "e65ac885a46e95913ca50b53edc01e1e",
+    "semantic_hash": "e65ac885a46e95913ca50b53edc01e1e"
+  },
+  "telegram_bot/services/image_service.py": {
+    "mtime": 1791727335.3456693,
+    "seen": 1791728638.48532,
+    "ast_hash": "5c57c7f3cca82506f390d46d7e67caf7",
+    "semantic_hash": "5c57c7f3cca82506f390d46d7e67caf7"
+  },
+  "telegram_bot/services/payment_service.py": {
+    "mtime": 1791726888.0921998,
+    "seen": 1791728638.48532,
+    "ast_hash": "4928687ce961429fd96b0157298513d1",
+    "semantic_hash": "4928687ce961429fd96b0157298513d1"
+  },
+  "telegram_bot/services/sticker_service.py": {
+    "mtime": 1791726885.6674814,
+    "seen": 1791728638.48532,
+    "ast_hash": "16b14f579b84fee143cbf957c0e5ccfc",
+    "semantic_hash": "16b14f579b84fee143cbf957c0e5ccfc"
+  },
+  "telegram_bot/services/worker.py": {
+    "mtime": 1791726964.2816901,
+    "seen": 1791728638.48532,
+    "ast_hash": "2f3cf118a7bae325486fd2de77259b43",
+    "semantic_hash": "2f3cf118a7bae325486fd2de77259b43"
+  },
+  "tests/__init__.py": {
+    "mtime": 1791719855.6677203,
+    "seen": 1791722768.3369615,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "tests/conftest.py": {
+    "mtime": 1791719862.7231889,
+    "seen": 1791722768.3369615,
+    "ast_hash": "7588ec53842f7c03d3bd4c9b31f9eb45",
+    "semantic_hash": "7588ec53842f7c03d3bd4c9b31f9eb45"
+  },
+  "tests/test_images.py": {
+    "mtime": 1791720830.4949522,
+    "seen": 1791722768.3369615,
+    "ast_hash": "22686c105c9f0b553ceb338db76894a7",
+    "semantic_hash": "22686c105c9f0b553ceb338db76894a7"
+  },
+  "tests/test_repository.py": {
+    "mtime": 1791719862.724194,
+    "seen": 1791722768.3369615,
+    "ast_hash": "1e30f9803e997c22fdc810d23ee5a4d4",
+    "semantic_hash": "1e30f9803e997c22fdc810d23ee5a4d4"
+  },
+  "tests/test_runtime_lock.py": {
+    "mtime": 1791720808.0425355,
+    "seen": 1791722768.3369615,
+    "ast_hash": "2eb4f6185685605ea01606c5bdfdcd1e",
+    "semantic_hash": "2eb4f6185685605ea01606c5bdfdcd1e"
+  },
+  "tests/test_services.py": {
+    "mtime": 1791720830.4924655,
+    "seen": 1791722768.3369615,
+    "ast_hash": "2032695a1bdf7317536bf6408f2cef25",
+    "semantic_hash": "2032695a1bdf7317536bf6408f2cef25"
+  },
+  "tests/test_telegram_flow.py": {
+    "mtime": 1791727332.452984,
+    "seen": 1791728638.48532,
+    "ast_hash": "f04cddd44f9e4e77e977b3e7ce7eba8b",
+    "semantic_hash": "f04cddd44f9e4e77e977b3e7ce7eba8b"
+  },
+  "README.md": {
+    "mtime": 1791727278.993615,
+    "seen": 1791728638.48532,
+    "ast_hash": "1b4db44491cdc6e49c25f77f2a5884bd",
+    "semantic_hash": "1b4db44491cdc6e49c25f77f2a5884bd"
+  },
+  "compose.yaml": {
+    "mtime": 1791720687.949432,
+    "seen": 1791722768.3369615,
+    "ast_hash": "037fc18dcae7e9409121a8656b356180",
+    "semantic_hash": "037fc18dcae7e9409121a8656b356180"
+  },
+  "telegram_bot/handlers/ai_studio_handlers.py": {
+    "mtime": 1791726955.8254673,
+    "seen": 1791728638.48532,
+    "ast_hash": "1abb4f2006ecda930a7dbd3cab67a4ee",
+    "semantic_hash": "1abb4f2006ecda930a7dbd3cab67a4ee"
+  },
+  "telegram_bot/services/template_service.py": {
+    "mtime": 1791727170.6469862,
+    "seen": 1791728638.48532,
+    "ast_hash": "affa9d0feb07f4db9057356823a58017",
+    "semantic_hash": "affa9d0feb07f4db9057356823a58017"
+  },
+  "tests/test_ai_studio.py": {
+    "mtime": 1791727329.0562513,
+    "seen": 1791728638.48532,
+    "ast_hash": "aa8b8f8fab82a7d239b41e7e414d0119",
+    "semantic_hash": "aa8b8f8fab82a7d239b41e7e414d0119"
+  },
+  "docs/MONETIZATION_IDEAS.md": {
+    "mtime": 1791728312.062926,
+    "seen": 1791728638.48532,
+    "ast_hash": "81689c5574fc4e9140d6e77552c464eb",
+    "semantic_hash": "81689c5574fc4e9140d6e77552c464eb"
+  }
+}

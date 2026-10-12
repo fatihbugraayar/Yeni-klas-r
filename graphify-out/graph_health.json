@@ -1,0 +1,200 @@
+{
+  "node_count": 367,
+  "unverified_node_count": 0,
+  "raw_edge_count": 1152,
+  "non_object_edges": 0,
+  "missing_endpoint_edges": 0,
+  "dangling_endpoint_edges": 159,
+  "external_reference_edges": 0,
+  "self_loop_edges": 0,
+  "valid_candidate_edges": 993,
+  "exact_duplicate_edges": 0,
+  "directed_unique_endpoint_pairs": 918,
+  "directed_same_endpoint_collapsed_edges": 75,
+  "undirected_unique_endpoint_pairs": 918,
+  "undirected_same_endpoint_collapsed_edges": 75,
+  "same_endpoint_group_count": 74,
+  "relation_variant_groups": 55,
+  "source_file_variant_groups": 0,
+  "source_location_variant_groups": 16,
+  "context_variant_groups": 18,
+  "post_build_graph_type": "Graph",
+  "post_build_node_count": 407,
+  "post_build_edge_count": 1069,
+  "post_build_error": "",
+  "producer_suppression": {
+    "path": "C:\\Users\\hdfat\\AppData\\Roaming\\uv\\tools\\graphifyy\\Lib\\site-packages\\graphify\\extract.py",
+    "total_sites": 12,
+    "sites": [
+      {
+        "line": 1749,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2282,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2284,
+        "name": "seen_doc_refs",
+        "tuple_arity": 0,
+        "sample": "seen_doc_refs: set[str] = set()"
+      },
+      {
+        "line": 2762,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2909,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n.get(\"id\") for n in nodes}"
+      },
+      {
+        "line": 3743,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 3916,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 6273,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 6381,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 6460,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 6975,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 6976,
+        "name": "seen_edges",
+        "tuple_arity": 4,
+        "sample": "seen_edges: set[tuple[str, str, str, str | None]] = set()"
+      }
+    ],
+    "error": ""
+  },
+  "examples": [
+    {
+      "source": "telegram_bot_handlers_ai_studio_handlers_receive_image",
+      "target": "telegram_bot_handlers_ai_studio_handlers_py_message",
+      "edge_count": 3,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "telegram_bot/handlers/ai_studio_handlers.py"
+      ],
+      "source_locations": [
+        "L47",
+        "L48",
+        "L49"
+      ],
+      "contexts": [
+        "decorator",
+        "parameter_type"
+      ]
+    },
+    {
+      "source": "telegram_bot_database_repository_repository_create_job",
+      "target": "telegram_bot_database_models_job",
+      "edge_count": 2,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "telegram_bot/database/repository.py"
+      ],
+      "source_locations": [
+        "L66"
+      ],
+      "contexts": [
+        "parameter_type",
+        "return_type"
+      ]
+    },
+    {
+      "source": "telegram_bot_database_repository_repository_create_job_49c716",
+      "target": "telegram_bot_database_models_job",
+      "edge_count": 2,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "telegram_bot/database/repository.py"
+      ],
+      "source_locations": [
+        "L76"
+      ],
+      "contexts": [
+        "parameter_type",
+        "return_type"
+      ]
+    },
+    {
+      "source": "telegram_bot_handlers_ai_studio_handlers_studio_command",
+      "target": "telegram_bot_handlers_ai_studio_handlers_py_message",
+      "edge_count": 2,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "telegram_bot/handlers/ai_studio_handlers.py"
+      ],
+      "source_locations": [
+        "L16",
+        "L17"
+      ],
+      "contexts": [
+        "decorator",
+        "parameter_type"
+      ]
+    },
+    {
+      "source": "telegram_bot_handlers_emoji_handlers_upload_emoji",
+      "target": "telegram_bot_handlers_emoji_handlers_py_message",
+      "edge_count": 2,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "telegram_bot/handlers/emoji_handlers.py"
+      ],
+      "source_locations": [
+        "L20",
+        "L21"
+      ],
+      "contexts": [
+        "decorator",
+        "parameter_type"
+      ]
+    }
+  ]
+}

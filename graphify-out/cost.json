@@ -1,0 +1,23 @@
+{
+  "runs": [
+    {
+      "date": "2026-10-11T12:46:08.354514+00:00",
+      "input_tokens": null,
+      "output_tokens": null,
+      "files": 42,
+      "token_usage_status": "unavailable",
+      "external_llm_api_calls": 0
+    },
+    {
+      "date": "2026-10-11T14:23:58.504749+00:00",
+      "input_tokens": null,
+      "output_tokens": null,
+      "files": 46,
+      "token_usage_status": "unavailable",
+      "external_llm_api_calls": 0
+    }
+  ],
+  "total_input_tokens": null,
+  "total_output_tokens": null,
+  "token_usage_status": "unavailable"
+}
